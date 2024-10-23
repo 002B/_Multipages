@@ -1,0 +1,17 @@
+.product-container{
+    border: 1px solid black;
+    height: 600px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.products-items-container{
+    margin:10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    height: 560px;
+    overflow-y: auto;
+}
+

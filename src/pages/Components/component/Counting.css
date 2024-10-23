@@ -1,0 +1,33 @@
+.countContainer{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.countTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.countDisplay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+.countButton{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+input{
+    width: 200px;
+    border: none;
+}
+button{
+    min-width: 50px;
+    min-height: 50px;
+}

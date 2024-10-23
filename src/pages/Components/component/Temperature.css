@@ -1,0 +1,38 @@
+.temperatureContainer{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+}
+.temperatureTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.inputContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.celsiusContainer, .fahrenheitContainer, .kelvinContainer {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    flex-basis: 1;
+    flex-direction: column;
+}
+.celsiusDisplay input, .fahrenheitDisplay input, .kelvinDisplay input {
+    width: 100%;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+}
+h3{
+    margin-top: 1rem;
+}
