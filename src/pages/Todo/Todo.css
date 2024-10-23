@@ -1,0 +1,27 @@
+.todo-container {
+    width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: white;
+}
+/* .form-check-input{
+    font-size: 1em;
+} */
+.todo-filters-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.todo-table {
+  border: 1px solid black;
+}
+.form-check{
+    display: flex;
+    margin-left: 40px;
+}
+.todo-space {
+  margin: 0 0.5rem
+}

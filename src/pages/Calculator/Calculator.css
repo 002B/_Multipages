@@ -1,0 +1,120 @@
+.calculator-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.calculator-display{
+    width: 370px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.button-container{
+    display: grid;
+    background-color: black;
+    padding: 10px;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: repeat(5, 80px);
+    gap: 10px;
+    border-radius: 0 0 10px 10px;
+    grid-template-areas: 
+    "btn-clear btn-clear btn-delete btn-divide"
+    "btn-7 btn-8 btn-9 btn-multiply"
+    "btn-4 btn-5 btn-6 btn-subtract"
+    "btn-1 btn-2 btn-3 btn-add"
+    "btn-0 btn-0 btn-dot btn-equal";
+}
+.btn-num{
+    background-color:#343434;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    transition: color 0.2s ease-in-out;
+}
+.btn-num:hover{
+    color: orange;
+}
+
+.btn-op{
+    background-color: orange;
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.btn-1{
+    grid-area: btn-1;
+}
+.btn-2{
+    grid-area: btn-2;
+}
+.btn-3{
+    grid-area: btn-3;
+}
+.btn-4{
+    grid-area: btn-4;
+}
+.btn-5{
+    grid-area: btn-5;
+}
+.btn-6{
+    grid-area: btn-6;
+}
+.btn-7{
+    grid-area: btn-7;
+}
+.btn-8{
+    grid-area: btn-8;
+}
+.btn-9{
+    grid-area: btn-9;
+}
+
+.btn-0{
+    grid-area: btn-0;
+}
+.btn-dot{
+    grid-area: btn-dot;
+}
+.btn-clear{
+    grid-area: btn-clear;
+}
+.btn-equal{
+    grid-area: btn-equal;
+}
+.btn-add{
+    grid-area: btn-add;
+}
+.btn-subtract{
+    grid-area: btn-subtract;
+}
+.btn-multiply{
+    grid-area: btn-multiply;
+}
+.btn-divide{
+    grid-area: btn-divide;
+}
+.btn-delete{
+    grid-area: btn-delete;
+}
